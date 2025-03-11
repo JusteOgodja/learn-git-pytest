@@ -49,7 +49,10 @@ def is_palindrome(s: str) -> bool:
     Returns:
         True if the string is a palindrome, False otherwise
     """
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     # Mettre tout en minuscules pour ignorer la casse
     chaine_minuscule = s.lower()
 
@@ -75,4 +78,8 @@ def capitalize_words(s: str) -> str:
         The input string with the first letter of each word capitalized
     """
     return s.title()
+<<<<<<< Updated upstream
     pass
+=======
+    pass
+>>>>>>> Stashed changes
