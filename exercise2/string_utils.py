@@ -34,7 +34,6 @@ def count_vowels(s: str) -> int:
             count += 1  # Incrémente le compteur
 
     return count  # Retourne le nombre de voyelles
-
     pass
 
 
@@ -50,7 +49,7 @@ def is_palindrome(s: str) -> bool:
     Returns:
         True if the string is a palindrome, False otherwise
     """
-    
+
     # Mettre tout en minuscules pour ignorer la casse
     chaine_minuscule = s.lower()
 
@@ -62,7 +61,6 @@ def is_palindrome(s: str) -> bool:
 
     # Comparer les deux chaînes et retourner le résultat
     return chaine_sans_espaces == chaine_inverse
-
     pass
 
 
