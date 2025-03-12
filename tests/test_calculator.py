@@ -2,6 +2,7 @@ import sys
 
 import pytest
 
+
 sys.path.append(".")
 
 from exercise1.calculator import add, divide, multiply, subtract
